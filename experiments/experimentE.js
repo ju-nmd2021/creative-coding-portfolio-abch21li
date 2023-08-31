@@ -18,8 +18,8 @@ class Point {
 function generateHorizon(base, maxHeight) {
   let points = [];
   for (let i = 0; i < width; i++) {
-    const noiseValue = noise(i / 70);
-    const y = base + noiseValue * maxHeight;
+    const noiseValue = noise(i / 300);
+    const y = base + noiseValue * 20 * maxHeight;
     const point = new Point(i, y, noiseValue);
     points.push(point);
   }
@@ -38,13 +38,13 @@ function generateLayers() {
 }
 
 function draw() {
-  background(34, 39, 46);
+  background(34, 20, 10);
 
   for (let layer of layers) {
-    stroke(108, 182, 255, 10);
-    fill(108, 182, 255, 10);
+    stroke(10, 200, 255, 10);
+    fill(10, 282, 155, 10);
     beginShape();
-    vertex(0, 0);
+    vertex(2000, 0);
     for (let p of layer) {
       vertex(p.x, p.y);
     }
@@ -53,3 +53,5 @@ function draw() {
   }
   noLoop();
 }
+
+// Reference: Creative Coding - Perlin Noise Landscape - Code Pen 2023//

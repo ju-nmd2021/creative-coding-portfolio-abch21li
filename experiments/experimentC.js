@@ -21,3 +21,5 @@ function draw() {
     rotate(frameCount / 400);
   }
 }
+
+// Reference: Creative Coding - Grid example - Grid from center - Code Pen 2023//
