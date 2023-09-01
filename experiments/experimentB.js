@@ -30,10 +30,10 @@ function drawGrid() {
 }
 
 function draw() {
-  background(200, 250, 105);
-  noFill();
-  stroke(0, 0, 0, 20);
-  strokeWeight(0.6);
+  background(100, 150, 205);
+  fill(255, 191, 0);
+  stroke(0, 0, 0, 10);
+  strokeWeight(0.2);
   stroke(0, 0, 0);
   drawGrid(0);
 

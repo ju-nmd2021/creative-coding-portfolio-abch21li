@@ -1,9 +1,9 @@
 [
   {
     "file": "experiments/experimentE.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "name": "Smokey Moutains",
+    "description": "For this piece, I spent some time adjusting the paramaters of “noiseValue” within the generateHorizon function. Lowering this value would produce harsh and ridged results, while increasing the value would spread the waveforms producing the end result. I also discovered that increasing the parameters of the vertex in function Draw created a kind of diagonal abstract streaming of sunlight that complimented the overall aesthetic of this modern and simplistic interpretation of nature.",
+    "background": "I grew up going to the smokey mountains in Tennessee as a kid with my family, and the way the adjusted parameters impacted this piece reminded me a lot of seeing them from a lookout point on a misty morning.  As far as composition goes, I tried to orient the waveforms to favour the golden ratio so that eye naturally is drawn toward the section of larger mountains, while the streams of sunlight were just a fortunate accident. ",
     "github": "https://www.github.com/pixelkind"
   }
 ]
