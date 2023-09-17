@@ -1,6 +1,6 @@
-const size = 50;
-const gap = 1;
-const amount = 9;
+const size = 200;
+const gap = 0;
+const amount = 2;
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
@@ -18,7 +18,7 @@ function draw() {
   for (let i = 0; i < amount; i++) {
     circle(x, y, size);
     x += size + gap;
-    rotate(frameCount / 400);
+    rotate(frameCount / 900);
   }
 }
 
