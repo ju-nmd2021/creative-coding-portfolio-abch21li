@@ -9,3 +9,6 @@ playBTN.addEventListener("click", () => {
   synth.triggerAttackRelease("C4", "4n");
 })
 
+
+
+// Reference: The Code Creative - Tone.JS - Youtube 2023 //
