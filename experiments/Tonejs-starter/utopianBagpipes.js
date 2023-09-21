@@ -75,7 +75,7 @@ reverbA.toDestination();
 
 drnBtnA.addEventListener("click", () => {
   if (Tone.context.state ==! "running") {
-    drone.start();
+    osc.start();
   }
   drone.triggerAttackRelease("C3", "1m");
   drone.triggerAttackRelease("G3", "1m");

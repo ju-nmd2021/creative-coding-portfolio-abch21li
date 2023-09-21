@@ -19,5 +19,12 @@
     "description": "For this experiment, I wanted to work with something a little bit more interactive, but that would generate something beautiful and unique every time you used it. Most of this experiment was just that, “experimenting” with different parameters and substituting the initial objects X and Y axis to be “mouseX” and “mouseY” so that it became a sort of drawing program. From there I continued to adjust field sizes in “drawElement”, as well as the “Math.random” numbers to get interesting results.",
     "background": "Because this piece is more interactive and abstract, there is less theory behind it. However, I loved how the shapes and colours started to remind me of some kind of collage of peacock feathers, hence the name: “Peacock Mosaic”. ",
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/electricBloom_Variance.js"
+  },
+  {
+    "file": "experiments/Tonejs-starter/utopianBagpipes.js",
+    "name": "Utopian Bagpipes",
+    "description": "",
+    "background": "",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/electricBloom_Variance.js"
   }
 ]
