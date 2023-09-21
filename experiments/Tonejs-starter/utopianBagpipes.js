@@ -1,6 +1,9 @@
 
 
 
+function setup() {
+  createCanvas(innerWidth, innerHeight);
+}
 
 //-----------------------------------------------TONES
 
@@ -30,8 +33,8 @@ const feedbackDelayA = new Tone.FeedbackDelay({
 
 const feedbackDelayB = new Tone.FeedbackDelay({
   delayTime: 1,
-  feedback: 1,
-  wet: 0.4,
+  feedback: 0.7,
+  wet: 0.5,
 });
 
 const reverbA = new Tone.JCReverb({
@@ -75,11 +78,11 @@ reverbA.toDestination();
 
 drnBtnA.addEventListener("click", () => {
   if (Tone.context.state ==! "running") {
-    osc.start();
+    drone.start();
   }
-  drone.triggerAttackRelease("C3", "1m");
-  drone.triggerAttackRelease("G3", "1m");
-  drone.triggerAttackRelease("C2", "1m");
+  drone.triggerAttackRelease("C3", "2m");
+  drone.triggerAttackRelease("G3", "2m");
+  drone.triggerAttackRelease("C2", "2m");
 });
 
 drnBtnB.addEventListener("click", () => {
@@ -98,18 +101,18 @@ drnBtnC.addEventListener("click", () => {
   if (Tone.context.state ==! "running") {
     drone.start();
   }
-  drone.triggerAttackRelease("C3", "1m");
-  drone.triggerAttackRelease("G3", "1m");
-  drone.triggerAttackRelease("C2", "1m");
+  drone.triggerAttackRelease("A3", "1m");
+  drone.triggerAttackRelease("E3", "1m");
+  drone.triggerAttackRelease("A2", "1m");
 });
 
 drnBtnD.addEventListener("click", () => {
   if (Tone.context.state ==! "running") {
     drone.start();
   }
-  drone.triggerAttackRelease("C3", "1m");
   drone.triggerAttackRelease("G3", "1m");
-  drone.triggerAttackRelease("C2", "1m");
+  drone.triggerAttackRelease("D3", "1m");
+  drone.triggerAttackRelease("G2", "1m");
 });
 
 cBTN.addEventListener("click", () => {
