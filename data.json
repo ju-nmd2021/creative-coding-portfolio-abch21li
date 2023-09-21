@@ -11,7 +11,7 @@
     "name": "Black Matter (smokey mountains varient)",
     "description": "For this variation, I spent time adjusting the vertex of the piece until they aligned more in the center, and then I adjusted the seed to create more ripples. I also added a lower opacity for a blending effect from the inside out, and ofcourse adjusted the coloring.",
     "background": "The inspiration for this piece is primarily from the first experiment. ",
-    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/smokeyMountains_Static.js"
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/smokeyMountains_V2.js"
   },
   {
     "file": "experiments/electricBloom_Variance.js",
@@ -32,14 +32,14 @@
     "name": "Páfugl Mosaic",
     "description": "For this experiment, I wanted to work with something a little bit more interactive, but that would generate something beautiful and unique every time you used it. Most of this experiment was just that, “experimenting” with different parameters and substituting the initial objects X and Y axis to be “mouseX” and “mouseY” so that it became a sort of drawing program. From there I continued to adjust field sizes in “drawElement”, as well as the “Math.random” numbers to get interesting results.",
     "background": "Because this piece is more interactive and abstract, there is less theory behind it. However, I loved how the shapes and colours started to remind me of some kind of collage of peacock feathers, hence the name: “Peacock Mosaic”. ",
-    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/electricBloom_Variance.js"
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/electricBloom_Variance_V2.js"
   },
   {
     "file": "experiments/stickyNotes.js",
     "name": "Sticky Notes",
     "description": "My first attempts at manipulating the grid. ",
     "background": "This experiment was in the lab and was mainly a playground for manipulating grid elements. Things started to resemble sticky notes, so I went with that for a pallet. ",
-    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/electricBloom_Variance.js"
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/stickyNotes.js"
   }
   ,
   {
@@ -47,7 +47,7 @@
     "name": "Golden Dice (Sticky Notes Variation) ",
     "description": "On this variation I added a slow rotation to the grid that is sort of hypmotizing and adjusted the gap/amount of the grid. I also adjusted the color pallete, added low-opacity stroke and reduced the overall size of the grid. ",
     "background": "The contrast of gold and purple is more pleasing on the eye and leans more towards a set of golden rotating dice than sticky notes. ",
-    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/electricBloom_Variance.js"
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/stickyNotes_V2.js"
   }
   ,
   {
@@ -55,6 +55,6 @@
     "name": "Lofi In the Wind",
     "description": "On this experiment, I used the lower frequencey waveforms that came from frequencies between 0 and 200 to create slower moving waveforms and changed the the first x and y positions to be mouseX and mouseY which made it look like one corner of a sheet was being held while the rest is blowing in the wind. ",
     "background": "On the stroke, I also decdied to incorporate the mouseX and mouseY position so that the color changes dependingo on where the mouse is on the screen. The inspiration for this piece came to me as I went along, and is more focused on interactivity.",
-    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/electricBloom_Variance.js"
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/Tonejs-starter/sketch.js"
   }
 ]
