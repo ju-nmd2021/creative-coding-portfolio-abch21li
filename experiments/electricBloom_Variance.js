@@ -22,7 +22,7 @@ function drawGrid(rotation) {
         push();
         translate(xPosition, yPosition);
         rotate(rotation);
-        square(0, 0, (size = size + 0.01));
+        square(0, 0, (size = size + 0.09));
         pop();
       }
     }

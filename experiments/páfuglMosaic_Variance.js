@@ -23,7 +23,7 @@ function drawElement() {
 }
 
 function draw() {
-  background(0, 0, 0, 1);
+  background(10, 100, 190, 1);
   noFill();
   stroke(0, 0, 0);
   strokeWeight(1);
