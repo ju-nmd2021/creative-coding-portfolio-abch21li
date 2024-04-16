@@ -43,7 +43,7 @@
   }
   ,
   {
-    "file": "experiments/stickyNotes_v2.js",
+    "file": "experiments/stickyNotes_V2.js",
     "name": "Golden Dice (Sticky Notes Variation) ",
     "description": "On this variation I added a slow rotation to the grid that is sort of hypmotizing and adjusted the gap/amount of the grid. I also adjusted the color pallete, added low-opacity stroke and reduced the overall size of the grid. ",
     "background": "The contrast of gold and purple is more pleasing on the eye and leans more towards a set of golden rotating dice than sticky notes. ",
