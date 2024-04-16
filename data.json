@@ -8,9 +8,9 @@
   },
   {
     "file": "experiments/smokeyMountains_V2.js",
-    "name": "Black Matter (smokey mountains varient)",
+    "name": "Black Matter (Smokey Mountains Variant)",
     "description": "For this variation, I spent time adjusting the vertex of the piece until they aligned more in the center, and then I adjusted the seed to create more ripples. I also added a lower opacity for a blending effect from the inside out, and ofcourse adjusted the coloring.",
-    "background": "The inspiration for this piece is primarily from the first experiment. ",
+    "background": "The inspiration for this piece is primarily from the first experiment, which was then used to create a variant.",
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/smokeyMountains_V2.js"
   },
   {
@@ -22,7 +22,7 @@
   },
   {
     "file": "experiments/electricBloom_Variance_V2.js",
-    "name": "Violet Implosian (Electric Bloom Varient)",
+    "name": "Violet Implosian (Electric Bloom Variant)",
     "description": "For this varient, I wanted to add a bit more movement and make it more visually interesting so I sped up the bloom and also found a cool reversing effect as it continued to reduce. I also adjusted the colors to be more vibrant. I wanted to make the bloom reverse once it hit another size, but I had some trouble with finding the correct if statement so it continues to expand. ",
     "background": "This inspiration for this piece was tied directly to my final project which will be to have unique shapes and colours generated based on the analyzation of wave forms from a song that is uploaded.  ",
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/electricBloom_Variance.js"
@@ -37,7 +37,7 @@
   {
     "file": "experiments/stickyNotes.js",
     "name": "Sticky Notes",
-    "description": "My first attempts at manipulating the grid. ",
+    "description": "This piece represents my first attempts at manipulating the grid. I spent time manipulating paramaters and adjusting the number of shapes until it looked visually interesting. ",
     "background": "This experiment was in the lab and was mainly a playground for manipulating grid elements. Things started to resemble sticky notes, so I went with that for a pallet. ",
     "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-abch21li/blob/main/experiments/stickyNotes.js"
   }
